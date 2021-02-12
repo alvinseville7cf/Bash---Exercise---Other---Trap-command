@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 function outputText()
 {
   local text=$1
@@ -16,5 +17,5 @@ trap "outputText 'Hello world!'" SIGWINCH
 outputText 'Hello world!'
 while true
 do
-    :
+  :
 done
